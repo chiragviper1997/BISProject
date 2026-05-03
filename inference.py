@@ -2,7 +2,6 @@ import json
 import argparse
 from src.rag_pipeline import rag_pipeline
 
-
 def main(input_path, output_path):
     with open(input_path, "r") as f:
         data = json.load(f)
