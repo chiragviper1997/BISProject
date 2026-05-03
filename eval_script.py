@@ -2,7 +2,6 @@ import json
 import argparse
 import sys
 
-
 def normalize_std(std_string):
     """Normalizes the standard name by removing spaces and converting to lowercase for fair matching."""
     return str(std_string).replace(" ", "").lower()
